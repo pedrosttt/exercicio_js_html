@@ -1,0 +1,59 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Centraliza títulos */
+h1, h2 {
+    text-align: center;
+}
+
+/* Margem superior para o título secundário */
+h2 {
+    margin-top: 20px;
+}
+
+/* Define o layout do container */
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+/* Estilos do formulário */
+form {
+    margin-top: 40px;
+    display: flex; /* Usar flexbox para alinhar os elementos horizontalmente */
+    flex-direction: column; /* Dispor os elementos em coluna (um abaixo do outro) */
+    align-items: center; /* Centralizar os elementos horizontalmente */
+}
+
+/* Estilos dos campos de entrada */
+input, textarea {
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%; /* Preencher todo o espaço disponível */
+    resize: none;
+}
+
+/* Estilos do botão */
+button {
+    padding: 18px;
+    background-color: #2ecc71;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    width: 100%; /* Preencher todo o espaço disponível */
+}
+
+/* Estilos do botão ao passar o mouse */
+button:hover {
+    background-color: #27ae60;
+}
